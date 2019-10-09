@@ -14,18 +14,18 @@ const Home: NextPage = () => (
   <PageWrapper>
     <LatestEpisode />
 
-    <Module col={'1 / span 2'}>
+    {/* <Module col={'1 / span 2'}>
       <Module.Title>
         <PlusCircle />
         Subscribe
       </Module.Title>
       <Subscribe />
-    </Module>
+    </Module> */}
 
     <Module tint={theme.brand.primary} col={'3 / span 4'}>
       <Module.Title tint={theme.brand.primary}>
         <SearchCircle />
-        Where to begin?
+        Posts
       </Module.Title>
       <Module.Description tint={theme.brand.primary}>
         In the last five years we've recorded more than 300 episodes. Here are a few of our favorites that will help make your start a little easier!
@@ -36,7 +36,7 @@ const Home: NextPage = () => (
     <Module tint={theme.social.patreon} col={'1 / span 6'}>
       <Module.Title tint={theme.social.patreon}>
         <HeartCircle />
-        Listener supported
+        Job Postings
       </Module.Title>
       <Module.Description tint={theme.social.patreon}>
         This show is possible because of the generosity of our listeners. If you've found our podcast useful or entertaining, please consider supporting us directly by becoming a patron.
@@ -51,7 +51,7 @@ const Home: NextPage = () => (
     <Module col={'1 / span 3'}>
       <Module.Title>
         <QuestionCircle />
-        Have a question?
+        Contact Us
       </Module.Title>
       <Module.Description>
         We'd love to help. Head over to our repo and create an issue, and we'll reply back when we discuss it on the show. DM us if you'd like to ask a question anonymously.

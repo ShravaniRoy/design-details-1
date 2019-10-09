@@ -30,7 +30,7 @@ class LatestEpisode extends React.Component {
         <Module tint={theme.brand.primary} col={'1 / span 6'}>
           <Module.Title tint={theme.brand.primary}>
             <PlayCircle />
-            Latest Episode
+            Latest Post
           </Module.Title>
           <LoadingSpinner style={{ padding: '85px 0'}} />
         </Module>
@@ -48,7 +48,7 @@ class LatestEpisode extends React.Component {
       <Module tint={theme.brand.primary} col={'1 / span 6'}>
         <Module.Title tint={theme.brand.primary}>
           <PlayCircle />
-          Latest Episode
+          Latest Post
         </Module.Title>
         <iframe 
           frameBorder='0' 

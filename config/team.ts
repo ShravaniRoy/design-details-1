@@ -27,4 +27,11 @@ export default [
     profilePhotoUrl: '/static/img/team/luperdev.jpg',
     coverPhotoUrl: '/static/img/team/luperdev_cover.jpeg'
   },
+  {
+    name: 'Shravani Thirunagari',
+    role: 'Developer',
+    twitterUsername: 'iamshravani',
+    profilePhotoUrl: '/static/img/team/luperdev.jpg',
+    coverPhotoUrl: '/static/img/team/luperdev_cover.jpeg'
+  },
 ]
