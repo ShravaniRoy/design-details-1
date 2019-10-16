@@ -9,16 +9,16 @@ const Navigation = ({ router }) => (
       <a><NavItem active={router.pathname === '/'}>Home</NavItem></a>
     </Link>
 
-    {/* <Link href={'/about'}>
+    <Link href={'/about'}>
       <a><NavItem active={router.pathname === '/about'}>About</NavItem></a>
-    </Link> */}
+    </Link>
 
-    <a href="https://spec.fm/podcasts/design-details" target="_blank" rel="noreferrer noopener">
-      <NavItem>Episodes <LinkExternal /></NavItem>
+    <a href="https://app.subjimandi.app" target="_blank" rel="noreferrer noopener">
+      <NavItem>Subjimandiapp <LinkExternal /></NavItem>
     </a>
 
-    <a href="https://patreon.com/designdetails" target="_blank" rel="noreferrer noopener">
-      <NavItem>Support us <LinkExternal /></NavItem>
+    <a href="https://pipehaul.app" target="_blank" rel="noreferrer noopener">
+      <NavItem>Pipehaulapp <LinkExternal /></NavItem>
     </a>
   </Container>
 )
